@@ -69,21 +69,22 @@
         }
         
         .bilder2 img {
+            max-width: auto;
+            max-height: auto;
             max-width: 600px;
             max-height: 400px;
-            border: 2px solid #333;
+            border: 2px solid grey;
             border-radius: 5px;
-            position: absolute;
         }
         
         .text p {
             font-size: 16px;
             line-height: 1.5;
-            color: #333;
+            color: gray;
             padding: 10px 20px 10px 10px;
             width: 90%;
             max-width: 800px;
-            background-color: #fff;
+            background-color: white;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -91,13 +92,13 @@
         .te p {
             font-size: 16px;
             line-height: 1.5;
-            color: #333;
+            color: gray;
             padding: 10px 20px 10px 10px;
             width: 90%;
             max-width: 800px;
-            background-color: #fff;
+            background-color: white;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px black(0, 0, 0, 0.1);
             position: absolute;
             bottom: auto;
         }
@@ -127,12 +128,11 @@
     </header>
     <section class="bilder">
         <!-- Lägg till bilder genom att ersätta URLerna nedan -->
-        <img onclick="enlargeImg()" id="img1" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.whitehouse.gov%2Fwp-content%2Fuploads%2F2021%2F01%2F44_barack_obama.jpg&f=1&nofb=1&ipt=556c49bb155e24baffe77b61c770cf7e0a2508194099f5e161efc7ccf111a9bb&ipo=images"
-            alt="Bild 1">
+        <img onclick="enlargeImg()" id="img1" src="https://cdn.pixabay.com/photo/2019/03/05/11/06/prom-4035992_1280.jpg" alt="Bild 1 på fiske av surströmming">
 
-        <img src=https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.whitehouse.gov%2Fwp-content%2Fuploads%2F2021%2F01%2F44_barack_obama.jpg&f=1&nofb=1&ipt=556c49bb155e24baffe77b61c770cf7e0a2508194099f5e161efc7ccf111a9bb&ipo=images alt="Bild 2 ">
-        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.whitehouse.gov%2Fwp-content%2Fuploads%2F2021%2F01%2F44_barack_obama.jpg&f=1&nofb=1&ipt=556c49bb155e24baffe77b61c770cf7e0a2508194099f5e161efc7ccf111a9bb&ipo=images
-            " alt="Bild 3 ">
+        <img src=https://cdn.pixabay.com/photo/2022/05/05/01/11/cormorant-7175037_1280.jpg alt="Bild 2 på fin nature">
+        <img src="https://cdn.pixabay.com/photo/2022/03/07/19/36/nature-7054382_1280.jpg
+            " alt="Bild 3 på vatten och båtar ">
 
     </section>
     <section class="text ">
@@ -140,23 +140,28 @@
             Är du en gentleman/kvinna som vill göra nästa finmidag eller rävjakt speciel? Använd i så fall våran ekologiska svenska surströmming med flertal sofistikerad smakar för den exlenta njutaren
         </p>
     </section>
+    <section class="text " id="te ">
+        <p>
+            Som en sann gentleman skulle säga, är det inte bara smaken som gör surströmming till vad det är – nej, det är hela kontexten. Det börjar med burken, som öppnas varsamt utomhus, helst med havsbrisen som en elegant kamrat för att dämpa doften som är både
+            känd och beryktad. Doften, kära vän, är som ett brutet löfte – oväntad men ändå ärlig. Den varnar dig för vad som komma skall, men om du vågar stanna kvar, belönar den dig med en smakupplevelse utöver det vanliga. Tillbehören är lika viktiga
+            som fisken själv. Tunnbröd, smör, mandelpotatis och en klick gräddfil spelar sina roller som hovmästare till denna kungliga rätt. Att äta surströmming är ett test i balans och mod. En gentleman vet att uppskatta det komplexa spelet mellan
+            sälta, syra och den unika fermenterade smaken. Det är som att dansa på en knivsegg av njutning och provokation. Men det är också en social akt – en hyllning till gemenskap och historia, där historier berättas och skratt delas över en enkel
+            men raffinerad måltid. Så, kära vän, nästa gång du hör någon fnysa åt surströmming, minns att det är inte bara en fisk i en burk. Det är kultur, tradition, och en gentlemans utmaning att möta och omfamna det okonventionella med stil. Skål
+            för surströmmingen – kung av kontrovers och herre av smakens mest djärva territorium!
+        </p>
+    </section>'
     <section class="bilder2 ">
-        <img id="bild1" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.whitehouse.gov%2Fwp-content%2Fuploads%2F2021%2F01%2F44_barack_obama.jpg&f=1&nofb=1&ipt=556c49bb155e24baffe77b61c770cf7e0a2508194099f5e161efc7ccf111a9bb&ipo=images
-            alt=" Bild 1 id="bild1 ">
-        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.whitehouse.gov%2Fwp-content%2Fuploads%2F2021%2F01%2F44_barack_obama.jpg&f=1&nofb=1&ipt=556c49bb155e24baffe77b61c770cf7e0a2508194099f5e161efc7ccf111a9bb&ipo=images" alt="Bild 2 ">'
-        <section class="text " id="te ">
-            <p>
-                Som en sann gentleman skulle säga, är det inte bara smaken som gör surströmming till vad det är – nej, det är hela kontexten. Det börjar med burken, som öppnas varsamt utomhus, helst med havsbrisen som en elegant kamrat för att dämpa doften som är både
-                känd och beryktad. Doften, kära vän, är som ett brutet löfte – oväntad men ändå ärlig. Den varnar dig för vad som komma skall, men om du vågar stanna kvar, belönar den dig med en smakupplevelse utöver det vanliga. Tillbehören är lika viktiga
-                som fisken själv. Tunnbröd, smör, mandelpotatis och en klick gräddfil spelar sina roller som hovmästare till denna kungliga rätt. Att äta surströmming är ett test i balans och mod. En gentleman vet att uppskatta det komplexa spelet mellan
-                sälta, syra och den unika fermenterade smaken. Det är som att dansa på en knivsegg av njutning och provokation. Men det är också en social akt – en hyllning till gemenskap och historia, där historier berättas och skratt delas över en enkel
-                men raffinerad måltid. Så, kära vän, nästa gång du hör någon fnysa åt surströmming, minns att det är inte bara en fisk i en burk. Det är kultur, tradition, och en gentlemans utmaning att möta och omfamna det okonventionella med stil. Skål
-                för surströmmingen – kung av kontrovers och herre av smakens mest djärva territorium!
-            </p>
-        </section>'
+        <img id="bild1" src="https://media.istockphoto.com/id/1328538241/sv/foto/nyf%C3%A5ngad-str%C3%B6mming-i-hink.jpg?s=1024x1024&w=is&k=20&c=w3_DTUyYklpxgOIpU-u60ekfuya00CfbeFKGPGtrzwA=" alt=" Bild 1 id=" bild1 på surströmming ">
+
+        <img src="https://media.istockphoto.com/id/1328538351/sv/foto/fiskar-str%C3%B6mming.jpg?s=1024x1024&w=is&k=20&c=cw1dcye80qjO_1IntJk_aO9TWdQI-ch-EsLoceoI0yg=" alt=" Bild 2 på fisk ">'
+
 
     </section>
-    <div class="div "></div>
+    <div class="div ">
+        <a href="https://xn--nyastrmmen-jcb.ture.fish/ " target="_blank ">Våran systersida den nya strömmen</a>
+        <p>BigBoysClub inc | En gentlemans delikates | Copyright © 2024 En gentlemans delikates. All Rights Reserved</p>
+
+    </div>
 </body>
 
 </html>
